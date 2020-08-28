@@ -34,19 +34,16 @@ PM_START_TEXT = """
 ┈┈┈┈╲┊┊┊┊╱┈┈┈┈
 ┈┈┈┈▕╲▂▂╱▏┈┈┈┈
 ╱▔▔▔▔┊┊┊┊▔▔▔▔╲
-HOI    {}, MY NAME IS {} !
+Hello {}, my name is {}! if you have any questions about how to use me please give me /help... 
 
-I AM A GROUP MANAGER BOT MAINTAINED BY 
+im a group manager bot maintained by  [this person](tg://user?id={}).
 
-[THIS LEGEND](tg://user?id={}).
+My future updates will be put into This Channel - @BadshahHack & My Support Group @ShizukaSupport.
 
-HIT HELP FOR COMMANDS  /help
+For more commands click /help...
 
-I AM COMPLETELY OPEN SOURCE
-
-MY SOURCE CODE IS AVAILABLE TO YOU
-
-[HERE](https://github.com/leobrownlee/phantom)
+🚨 Anti Ripping Organization 🚨
+You can join Fed or Subscribe to remove Rippers from your Groups @AntiRippingOrganization
 
 """
 
@@ -156,7 +153,7 @@ def start(bot: Bot, update: Update, args: List[str]):
             first_name = update.effective_user.first_name
             update.effective_message.reply_text(
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="ADD ME TO YOUR GROUP",
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Add Shizuka to your group",
                                                                        url="t.me/{}?startgroup=true".format(bot.username))]]))
 
 
