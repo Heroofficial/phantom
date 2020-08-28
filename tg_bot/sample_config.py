@@ -12,14 +12,14 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "YOUR BOT TOKEN HERE"
-    OWNER_ID = "YOUR OWN ID HERE"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "YOUR USERNAME HERE"
+    API_KEY = "1036219889:AAER5umjdx1tcCb5oXdooNOZ68g2EKEokBM"
+    OWNER_ID = "797768146"  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = "HEROGAMERS1"
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
-    GBAN_LOGS = None #Channel ID here with -
+    GBAN_LOGS = -1001397080497
     LOAD = []
     NO_LOAD = ['translation', 'rss']   
     WEBHOOK = False
