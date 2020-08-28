@@ -33,11 +33,11 @@
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
-         "value": "123"
+         "value": "797768146"
       },
       "OWNER_USERNAME": {
          "description": "Your username",
-         "value": "username"
+         "value": "HEROGAMERS1"
       },
       "DEV_USERS": {
          "description": "ID of users who are Dev (can use /py etc.)",
@@ -46,7 +46,7 @@
       },
       "GBAN_LOGS": {
          "description": "Gban log channel, include the hyphen too: ex: -123456",
-         "value": "-123"
+         "value": "-100139708497"
       },
       "CASH_API_KEY": {
          "description": "Required for currency converter",
@@ -76,12 +76,12 @@
       "SUDO_USERS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "123"
+         "value": "1005061205 978048105 1049081438"
       },
       "SUPPORT_USERS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "123"
+         "value": "1005061205 978048105 1049081438"
       },
       "TIGER_USERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
@@ -91,7 +91,7 @@
       "TOKEN": {
          "description": "Your bot token.",
          "required": true,
-         "value": ""
+         "value": "1109246758:AAGqoznf7e5VVG4NXXhWsUsh5SMo83Zh5fc"
       },
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
@@ -116,6 +116,6 @@
       "bot"
    ],
    "logo": "https://telegra.ph/file/72b6a2032bd19642ff759.jpg",
-   "name": "phantom",
-   "repository": "https://github.com/leobrownlee/phantom"
+   "name": "Shizuka2.0",
+   "repositories": "https://github.com/Heroofficial/phantom.git"
 }
