@@ -1,4 +1,4 @@
-[![Shizuka](https://images2.alphacoders.com/694/694175.png)]
+![Shizuka](https://images2.alphacoders.com/694/694175.png)
 
 
 
