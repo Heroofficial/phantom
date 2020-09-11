@@ -151,10 +151,13 @@ def start(bot: Bot, update: Update, args: List[str]):
 
         else:
             first_name = update.effective_user.first_name
+            buttons = InlineKeyboardMarkup(
+                [[InlineKeyboardButton(text="🎉 Add me to your group", url="https://t.me/Shizu_Bot?startgroup=new")],
+                [InlineKeyboardButton(text="👥 Support Group", url="https://t.me/ShizukaSupport"), InlineKeyboardButton(text="🔔 Update Channel", url="https://t.me/BadshahHack")],
+                [InlineKeyboardButton(text="❓ Help", url="https://t.me/Shizu_Bot?start=help")]])
             update.effective_message.reply_text(
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Add Shizuka to your group", url="t.me/{}?startgroup=true".format(bot.username))],
-                                                                                  [InlineKeyboardButton(text="❓ Help", url="https://t.me/Shizu_Bot?start=help")]]))
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Add Shizuka to your group", url="t.me/{}?startgroup=true".format(bot.username))]]))
 
 
     else:
