@@ -157,7 +157,8 @@ def start(bot: Bot, update: Update, args: List[str]):
                 [InlineKeyboardButton(text="❓ Help", url="https://t.me/Shizu_Bot?start=help")]])
             update.effective_message.reply_text(
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Add Shizuka to your group", url="t.me/{}?startgroup=true".format(bot.username))]]))
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Add Shizuka to your group", url="t.me/{}?startgroup=true".format(bot.username))],
+                                                                                 [InlineKeyboardButton(text="❔ Help", callback_data="help_back")]]))
 
 
     else:
