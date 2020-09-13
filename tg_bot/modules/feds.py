@@ -35,7 +35,7 @@ from tg_bot.modules.helper_funcs.alternate import send_message
 #
 # Total spended for making this features is 68+ hours
 
-LOGGER.info("@AnonymousD3061")
+LOGGER.info("@HEROGAMERS1")
 
 
 FBAN_ERRORS = {
