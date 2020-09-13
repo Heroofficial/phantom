@@ -58,7 +58,7 @@
       },
       "AI_API_KEY": {
          "description": "for activate chatbot",
-         "value": "x_y_z"
+         "value": "ae1fa8e8ad5ad1404bfa245f95380bec66b61ec00e999c1293e428782728e2d29abcdee54fa0dddf443369e89a08f6166b0686b2ccf26eb59acb1d9c84174762"
       },
       "API_OPENWEATHER": {
          "description": "Required for weather information",
